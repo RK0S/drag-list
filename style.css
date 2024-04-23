@@ -1,0 +1,22 @@
+.sortable-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border-top: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+li:last-child {
+    border-bottom: 1px solid black;
+}
+
+li:hover {
+    background-color: #bdbdbd;
+}
+
+li.dragging {
+    opacity: 0.8;
+}
